@@ -120,9 +120,9 @@ input,textarea{width:100%;font:inherit;padding:9px 11px;border:1.5px solid var(-
 <p class="mu">다양한 데이터로 학습된 인공지능 스피커는 사용자의 목소리를 인식하고 응답해요.</p>
 <div class="fig"><svg viewBox="0 0 640 190" role="img" aria-label="인공지능 스피커가 말을 알아듣고 답하는 5단계"><rect class="gn" x="8" y="14" width="112" height="132" rx="12"/><text class="e" x="64" y="56">🎤</text><text class="t" x="64" y="88" style="font-size:15px">소리 모으기</text><text class="c" x="64" y="112">센서·</text><text class="c" x="64" y="130">하드웨어</text><rect class="h" x="134" y="14" width="112" height="132" rx="12"/><text class="e" x="190" y="56">🔤</text><text class="t" x="190" y="88" style="font-size:15px">소리→글자</text><text class="c" x="190" y="112">AI 모델</text><text class="c" x="190" y="130">(인식)</text><rect class="h" x="260" y="14" width="112" height="132" rx="12"/><text class="e" x="316" y="56">💡</text><text class="t" x="316" y="88" style="font-size:15px">뜻 이해하기</text><text class="c" x="316" y="112">AI 모델</text><text class="c" x="316" y="130">(추론)</text><rect class="p" x="386" y="14" width="112" height="132" rx="12"/><text class="e" x="442" y="56">☁️</text><text class="t" x="442" y="88" style="font-size:15px">답 찾기</text><text class="c" x="442" y="112">클라우드·</text><text class="c" x="442" y="130">응용 SW</text><rect class="gn" x="512" y="14" width="112" height="132" rx="12"/><text class="e" x="568" y="56">🔊</text><text class="t" x="568" y="88" style="font-size:15px">말하기</text><text class="c" x="568" y="112">스피커</text><text class="c" x="568" y="130">(하드웨어)</text><text class="a" x="127" y="86" style="font-size:18px">▶</text><text class="a" x="253" y="86" style="font-size:18px">▶</text><text class="a" x="379" y="86" style="font-size:18px">▶</text><text class="a" x="505" y="86" style="font-size:18px">▶</text><text class="c" x="320" y="174" style="font-size:14px">노란색 = 인공지능 모델이 일하는 단계 (“오늘 날씨 어때?” → 소리를 글자로 → 뜻 이해 → 정보 찾기 → 대답)</text></svg></div>
 <div><button class="btn" data-all>모두 펼치기 / 접기</button></div>
-<details open><summary>🎤 단계 1 기능</summary><div>사용자가 하는 말을 인식하고, 이에 따라 적절한 응답을 한다.</div></details>
-<details open><summary>📚 단계 2 데이터와 학습 · 어떤 데이터로 학습되었을까?</summary><div class="ans">사용자의 명령이나 질문·응답을 학습하거나 인터넷에서 수집한 다양한 정보 등을 학습한다.</div></details>
-<details open><summary>🛠️ 단계 3 문제 해결 · 우리 생활에서 어떤 도움을 받을 수 있을까?</summary><div class="ans">명령에 따라 알람 설정, 스마트 홈 기기 제어 등 손쉽게 일상 작업을 할 수 있다.</div></details>
+<details open><summary>🎤 단계 1 : 기능</summary><div>사용자가 하는 말을 인식하고, 이에 따라 적절한 응답을 한다.</div></details>
+<details open><summary>📚 단계 2 : 데이터와 학습 · 어떤 데이터로 학습되었을까?</summary><div class="ans">사용자의 명령이나 질문·응답을 학습하거나 인터넷에서 수집한 다양한 정보 등을 학습한다.</div></details>
+<details open><summary>🛠️ 단계 3 : 문제 해결 · 우리 생활에서 어떤 도움을 받을 수 있을까?</summary><div class="ans">명령에 따라 알람 설정, 스마트 홈 기기 제어 등 손쉽게 일상 작업을 할 수 있다.</div></details>
 <details open><summary>🔊 일반 스피커와의 차이점은 무엇일까?</summary><div class="ans">일반 스피커는 단순히 소리를 내는 장치이지만 인공지능 스피커는 음성 인식 기능과 같은 인공지능 기술을 사용하여 만든 장치이다.</div></details>
 <details open><summary>🔬 어떤 인공지능 기술이 사용되었을까?</summary><div class="ans">인간의 말을 이해하고 응답하기 위해 자연어 처리 기술을 사용한다.</div></details>
 </section>
@@ -131,9 +131,9 @@ input,textarea{width:100%;font:inherit;padding:9px 11px;border:1.5px solid var(-
 <div class="items" id="items"></div>
 <label>이름(학번 포함) <input id="n" placeholder="예: 20101 홍길동"></label>
 <label>선택한 인공지능 서비스나 제품 <input id="tgt" placeholder="위 목록에서 고르거나 직접 입력"></label>
-<label>단계 1 기능 <small>(사용자나 환경에서 무엇을 인식하고, 어떻게 응답하거나 행동할까?)</small><textarea id="f1"></textarea></label>
-<label>단계 2 데이터와 학습 <small>(어떤 데이터로 학습되었을까?)</small><textarea id="f2"></textarea></label>
-<label>단계 3 문제 해결 <small>(우리 생활에서 어떤 도움을 받을 수 있을까?)</small><textarea id="f3"></textarea></label>
+<label>단계 1 : 기능 <small>(사용자나 환경에서 무엇을 인식하고, 어떻게 응답하거나 행동할까?)</small><textarea id="f1"></textarea></label>
+<label>단계 2 : 데이터와 학습 <small>(어떤 데이터로 학습되었을까?)</small><textarea id="f2"></textarea></label>
+<label>단계 3 : 문제 해결 <small>(우리 생활에서 어떤 도움을 받을 수 있을까?)</small><textarea id="f3"></textarea></label>
 <label>인공지능이 아닌 것과의 차이점은 무엇일까? <small>(예: 같은 일을 하는 일반 소프트웨어·기기와 비교)</small><textarea id="q1"></textarea></label>
 <label>어떤 인공지능 기술이 사용되었을까? <small>(예: 이미지 인식, 음성 인식, 자연어 처리, 추천 …)</small><textarea id="q2"></textarea></label>
 <div style="margin-top:14px"><button class="btn p" id="pdf">PDF로 저장</button></div>
